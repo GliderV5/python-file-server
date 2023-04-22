@@ -1,8 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\Directory\shell\creat file server]
-@="creat file server" 
-
-[HKEY_CLASSES_ROOT\Directory\shell\creat file server\command]
-@="\"C:\\scripts\\server.bat\" \"%1\""
-
