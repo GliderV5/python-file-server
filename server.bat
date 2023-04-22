@@ -1,7 +1,8 @@
 @echo off
-echo To exit, press ctrl+c
-echo ...
-echo To access to your files, please use your IP adress with the port 9000
-echo ...
-echo ...
+ipconfig | findstr /i "ipv4"
+echo.
+echo Close this window to close the server 
+echo .
+echo .
+echo .
 python3 -m http.server 9000
